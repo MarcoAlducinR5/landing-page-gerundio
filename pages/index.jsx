@@ -1,23 +1,18 @@
 import Head from "next/head";
-
-export const metadata = {
-  title: "Shield Plus",
-  description: "Prueba tecnica de una Landing Page para la empresa Gerundio",
-};
+import { Fragment } from "react";
+import { metadataHome } from "./utils/constants";
 
 export default function Home() {
   return (
-    <>
+    <Fragment>
       <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description}/>
+        <title>{metadataHome.title}</title>
+        <meta name="description" content={metadataHome.description}/>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <header>Header</header>
-      <main>Hola
-      <button type="button" class="btn btn-primary">Primary</button>
+
+      <button type="button" className="btn btn-primary">Primary</button>
       <div className="accordion" id="accordionExample">
   <div className="accordion-item">
     <h2 className="accordion-header">
@@ -56,9 +51,7 @@ export default function Home() {
     </div>
   </div>
 </div>
-      </main>
-      <footer>Adios</footer>
-      
-    </>
+<div className="texto-color1">Shield Plus</div>
+    </Fragment>
   );
 }

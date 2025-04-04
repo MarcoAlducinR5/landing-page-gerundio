@@ -1,7 +1,14 @@
-// :root {
-//   --background: #ffffff;
-//   --foreground: #171717;
-// }
+$color1: #FAFAFA;
+$color2: #FFFFFF;
+$color3: #DCDCDC;
+$color4: #1BA986;
+$color5: #0E3B51;
+$color6: #000000;
+
+$weight3: 300;
+$weight4: 400;
+$weight5: 500;
+$weight6: 600;
 
 * {
   box-sizing: border-box;
@@ -17,4 +24,12 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.texto-color1{
+  color: $color4;
+  font-weight: $weight6;
+  font-size: 28px;
+  line-height: 42px;
+  letter-spacing: 0px;
 }
