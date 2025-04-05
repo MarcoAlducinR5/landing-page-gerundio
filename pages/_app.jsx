@@ -1,7 +1,6 @@
 import "bootstrap/dist/css/bootstrap.css";
 import "@/styles/globals.scss";
 
-import { Poppins } from "next/font/google";
 import { useEffect } from "react";
 
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -9,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 import Layout from "./components/layout";
-import { poppinsBlack, poppinsBlackItalic, poppinsBold, poppinsBoldItalic, poppinsExtrabold, poppinsExtraboldItalic, poppinsExtralight, poppinsExtralightItalic, poppinsLight, poppinsLightItalic, poppinsMedium, poppinsMediumItalic, poppinsRegular, poppinsRegularItalic, poppinsSemibold, poppinsSemiboldItalic, poppinsThin, poppinsThinItalic } from "./utils/constants";
+import { poppinsBlack, poppinsBlackItalic, poppinsBold, poppinsBoldItalic, poppinsExtrabold, poppinsExtraboldItalic, poppinsExtralight, poppinsExtralightItalic, poppinsLight, poppinsLightItalic, poppinsMedium, poppinsMediumItalic, poppinsRegular, poppinsRegularItalic, poppinsSemibold, poppinsSemiboldItalic, poppinsThin, poppinsThinItalic } from "./utils/constants.js";
 
 export default function App({ Component, pageProps }) {
   useEffect(()=>{

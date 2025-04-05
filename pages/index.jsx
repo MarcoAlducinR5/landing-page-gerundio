@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import { metadataHome } from "./utils/constants";
+import { metadataHome } from "./utils/constants.js";
 
 export default function Home() {
   return (
