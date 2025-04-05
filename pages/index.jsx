@@ -1,6 +1,10 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import { metadataHome } from "./components/lib/constants.js";
+
+export const metadataHome = {
+  title: "Shield Plus",
+  description: "Prueba tecnica de una Landing Page para la empresa Gerundio",
+};
 
 export default function Home() {
   return (
