@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { Fragment } from "react";
-import { metadataPlans } from "../utils/constants";
+import { metadataPlans } from "../components/lib/constants";
 
 export default function Page() {
     return (

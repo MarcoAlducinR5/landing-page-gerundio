@@ -8,7 +8,7 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 
 import Layout from "./components/layout";
-import { poppinsBlack, poppinsBlackItalic, poppinsBold, poppinsBoldItalic, poppinsExtrabold, poppinsExtraboldItalic, poppinsExtralight, poppinsExtralightItalic, poppinsLight, poppinsLightItalic, poppinsMedium, poppinsMediumItalic, poppinsRegular, poppinsRegularItalic, poppinsSemibold, poppinsSemiboldItalic, poppinsThin, poppinsThinItalic } from "./utils/constants.js";
+import { poppinsBlack, poppinsBlackItalic, poppinsBold, poppinsBoldItalic, poppinsExtrabold, poppinsExtraboldItalic, poppinsExtralight, poppinsExtralightItalic, poppinsLight, poppinsLightItalic, poppinsMedium, poppinsMediumItalic, poppinsRegular, poppinsRegularItalic, poppinsSemibold, poppinsSemiboldItalic, poppinsThin, poppinsThinItalic } from "./components/lib/constants.js";
 
 export default function App({ Component, pageProps }) {
   useEffect(()=>{
