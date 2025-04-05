@@ -5,9 +5,11 @@ import Header from "./header";
 export default function Layout({ children }) {
     return (
         <Fragment>
-            <Header />
-            <main>{children}</main>
-            <Footer />
+            <div className="container">
+                <Header />
+                <main>{children}</main>
+                <Footer />
+            </div>
         </Fragment>
     );
 }

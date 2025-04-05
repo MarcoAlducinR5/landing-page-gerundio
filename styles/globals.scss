@@ -10,6 +10,38 @@ $weight4: 400;
 $weight5: 500;
 $weight6: 600;
 
+$size10: 10px;
+$size12: 12px;
+$size16: 16px;
+$size18: 18px;
+$size20: 20px;
+$size22: 22px;
+$size24: 24px;
+$size28: 28px;
+$size37: 37px;
+$size38: 38px;
+$size53: 53px;
+$size37: 37px;
+
+$lineHeight15: 15px;
+$lineHeight18: 18px;
+$lineHeight24: 24px;
+$lineHeight27: 27px;
+$lineHeight30: 30px;
+$lineHeight33: 33px;
+$lineHeight36: 36px;
+$lineHeight42: 42px;
+$lineHeight55: 55.5px;
+$lineHeight57: 57px;
+$lineHeight73: 73px;
+
+$letterSpacing: 0px;
+
+$textAlign: center;
+
+$block: block;
+$none: none;
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -24,12 +56,127 @@ body {
 
 body {
   font-family: "Poppins", sans-serif;
+  background-color: $color1;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.texto-brand{
+  color: $color4;
+  font-weight: $weight6;
 }
 
 .texto-color1{
-  color: $color4;
+  color: $color5;
+  font-weight: $weight4;
+}
+.texto-color2{
+  color: $color5;
   font-weight: $weight6;
-  font-size: 28px;
-  line-height: 42px;
-  letter-spacing: 0px;
+}
+.texto-color3{
+  color: $color2;
+  font-weight: $weight6;
+}
+.mostrarBtn{
+  display: $none;
+}
+.btn-started1{
+  font-size: $size10;
+  line-height: $lineHeight15;
+  letter-spacing: $letterSpacing;
+  text-align: $textAlign;
+
+  display: $block;
+}
+.centrado{
+  text-align: start;
+}
+
+
+// Smartphones, iphones and ipad mini
+@media (min-width: 768px) and (max-width: 991.99px) { 
+  .txtb-mobile1{
+    font-size: $size16;
+    line-height: $lineHeight24;
+    letter-spacing: $letterSpacing;
+  }
+  .txtb-mobile2{
+    font-size: $size38;
+    line-height: $lineHeight57;
+    letter-spacing: $letterSpacing;
+  }
+  .nav-menu-m{
+    font-size: $size22;
+    line-height: $lineHeight33;
+    letter-spacing: $letterSpacing;
+  }
+ }
+
+//  ipad pro y tablets
+ @media (min-width: 992px) and (max-width: 1199.99px) { 
+  .txtb-tablet1{
+    font-size: $size16;
+    line-height: $lineHeight24;
+    letter-spacing: $letterSpacing;
+  }
+  .txtb-tablet2{
+    font-size: $size38;
+    line-height: $lineHeight57;
+    letter-spacing: $letterSpacing;
+  }
+  .nav-menu-t{
+    font-size: $size16;
+    line-height: $lineHeight24;
+    letter-spacing: $letterSpacing; 
+  }
+  .btn-started1{
+    display: $none;
+  }
+  .btn-started2, .btn-login{
+    font-size: $size12;
+    line-height: $lineHeight15;
+    letter-spacing: $letterSpacing;
+    text-align: $textAlign;
+  }
+  .centrado{
+    text-align: $textAlign;
+  }
+  .mostrarBtn{
+    display: $block;
+  }
+}
+
+// laptops, desktops and monitors
+@media (min-width: 1200px) { 
+  .txtb-desktop1{
+    font-size: $size28;
+    line-height: $lineHeight42;
+    letter-spacing: $letterSpacing;
+  }
+  .txtb-desktop2{
+    font-size: $size38;
+    line-height: $lineHeight57;
+    letter-spacing: $letterSpacing;
+  }
+  .nav-menu-d{
+    font-size: $size16;
+    line-height: $lineHeight24;
+    letter-spacing: $letterSpacing;
+  }
+  .btn-started1{
+    display: $none;
+  }
+  .btn-started2, .btn-login{
+    font-size: $size16;
+    line-height: $lineHeight24;
+    letter-spacing: $letterSpacing;
+    text-align: $textAlign;
+  }
+  .mostrarBtn{
+    display: $block;
+  }
+  .centrado{
+    text-align: $textAlign;
+  }
 }
