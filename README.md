@@ -1,40 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Prueba Técnica: Creación de una Landing Page
 
-## Getting Started
+#### 📌 Objetivo
 
-First, run the development server:
+Desarrollar una landing page que demuestre tu capacidad para maquetar, organizar el código, y entregar una solución responsive; para la empresa **GERUNDIO** La idea es evaluar cómo estructurarías y documentarías tu proyecto en GitHub, tanto en el uso de commits como en la calidad del archivo README.
+
+#### 🏗 Descripción del Proyecto
+
+La implementacion de una Landing Page ejemplo llamado **SHIELD PLUS**, esto usando el concepto de Single-Page Applications (SPA, por sus siglas en ingles) ó Aplicaciones de una sola página, una propuesta realizada enteramente en NextJS (framework de Javascript basado en React); lo cual conlleva a ciertas caracteristicas para este tipo de proyectos:
+
+- ✅ *Renderizado del lado del cliente (CSR): La aplicación se sirve mediante un archivo HTML (p. ej., index.html). Cada ruta, transición de página y obtención de datos se gestiona mediante JavaScript en el navegador.*
+- ✅ *Sin recargas de página completa: En lugar de solicitar un nuevo documento para cada ruta, JavaScript del lado del cliente manipula el DOM de la página actual y obtiene los datos según sea necesario.*
+
+#### 🧑🏻‍💻 Tecnologías utilizadas
+
+⭐ HTML5
+⭐ NextJS
+⭐ JSX - permite escribir elementos y componentes con una apariencia similar a HTML, pero que son expresiones JavaScript
+⭐ CSS puro
+⭐ Bottstrap
+⭐ SASS
+⭐ Font Awesome - para los iconos
+⭐ Git
+⭐ GitHub
+⭐ Vercel - para el Deploy del proyecto
+
+#### 🔧 Pasos de instalación y ejecución
+
+Como paso previo se debera clonar el repositorio en este [enlace](https://github.com/MarcoAlducinR5/landing-page-gerundio "enlace") usando el siguiente comando:
+
+```bash
+git clone git@github.com:MarcoAlducinR5/landing-page-gerundio.git
+```
+
+Acto seguido debera descargar todas las dependencias usando:
+
+```bash
+npm install
+```
+
+Para ejecutar el proyecto de manera local, use el siguiente comando:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+👌 **NOTA**: Si usted gusta visualizar este proyecto en tiempo real, lo invitamos a visitar el siguiente 👉[enlace](https://landing-page-gerundio.vercel.app/ "enlace")👈, de modo que el sitio es responsivo.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+#### ⚠️  Información relevante
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
-
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+> - Se recomienda tener una configuracion de clonacion via SSH por cuestiones de seguridad, esto para la clonacion de este proyecto desde GitHub, para mas informacion visite este [enlace](https://docs.github.com/es/get-started/git-basics/about-remote-repositories#cloning-with-ssh-urls "enlace")
+- Si a usted le interesa conocer más acerca de los SPA en NextJS, lo invitamos a visitar el siguiente 👉[enlace](https://nextjs.org/docs/app/building-your-application/upgrading/single-page-applications "enlace")👈, donde encontrara toda la información.
