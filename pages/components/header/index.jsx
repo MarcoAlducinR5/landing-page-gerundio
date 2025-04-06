@@ -22,7 +22,7 @@ export default function Header() {
             <button className="btn btn-success btn-started1 texto-color3">
               Get Started
             </button>
-            <div className="collapse navbar-collapse" id="navbarSupportedContent">
+            <section className="collapse navbar-collapse" id="navbarSupportedContent">
               <div className="d-flex flex-row flex-fill align-items-center">
                 <div className=" flex-grow-1 centrado">
                   <div className="d-inline-flex">
@@ -70,7 +70,7 @@ export default function Header() {
                   </button>
                 </div>
               </div>
-            </div>
+            </section>
           </div>
         </nav>
       </>
