@@ -25,7 +25,7 @@ export default function Home() {
       </Head>
 
       <aside className="d-flex flex-column flex-md-row text-center text-md-start mb-5 mt-4 my-md-5 px-1 px-md-2">
-        <section className="flex-fill mitad1 pe-md-3 pe-lg-3">
+        <section className="flex-fill mitad1 mb-3 pe-md-3 pe-lg-3">
           <h1 className="texto-color2 a-h1-tx2">Smart Insurance Solutions for a Worry <div className="texto-brand">Free Life</div></h1>
           <p className="d-none d-md-block text-color5 a-txtc5">Stay protected with flexible coverage that safeguards your health, family, and assets. Choose the right plan and enjoy financial peace of mind.</p>
           <p className="d-none d-md-block text-center">
@@ -33,8 +33,8 @@ export default function Home() {
             <button type="button" className="ms-2 btn btn-vop texto-color2 button-btns1">View Our Plans</button>
           </p>
         </section>
-        <Image src={familyHappy} alt="Picture of the author" width={0} height={0} className="mitad2 imagen mb-3 mb-md-0" priority />
-        <p className="flex-fill d-block d-md-none text-color5 a-txtc5 px-1">Stay protected with flexible coverage that safeguards your health, family, and assets. Choose the right plan and enjoy financial peace of mind.</p>
+        <Image src={familyHappy} alt="Picture of the author" width={0} height={0} className="mitad2 imagen mb-3 mb-md-0 rounded-4" priority />
+        <p className="flex-fill d-block d-md-none text-color5 a-txtc5">Stay protected with flexible coverage that safeguards your health, family, and assets. Choose the right plan and enjoy financial peace of mind.</p>
         <section className="d-block d-md-none d-flex flex-column align-items-center">
           <button className="mb-2 btn btn-success texto-color3 button-btns1">Get a Free Quote</button>
           <button type="button" className="mt-2 btn btn-vop texto-color2 button-btns1">View Our Plans</button>

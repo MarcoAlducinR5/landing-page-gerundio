@@ -96,11 +96,11 @@ body {
   font-weight: $weight3;
 }
 .texto-aside1{
-  font-size: $size28;
-  line-height: $lineHeight42;
+  font-size: $size24;
+  line-height: $lineHeight36;
 }
 .texto-aside2{
-  font-size: $size18;
+  font-size: 17.9px;
   line-height: $lineHeight27;
 }
 
@@ -147,12 +147,12 @@ body {
   box-shadow: 0px 6px 5px 0px #00000017;
 }
 .b-tb-name{
-  font-size: $size22;
-  line-height: $lineHeight33;
-}
-.b-tb-description {
   font-size: $size18;
   line-height: $lineHeight27;
+}
+.b-tb-description {
+  font-size: 14.5px;
+  line-height: $lineHeight24;
 }
 
 .imagen{
@@ -160,18 +160,18 @@ body {
 }
 
 .a-h1-tx2{
-  font-size: $size24;
-  line-height: $lineHeight36;
+  font-size: 31px;
+  line-height: $lineHeight42;
 }
 .a-txtc5{
-  font-size: $size12;
-  line-height: $lineHeight18;
+  font-size: 15.5px;
+  line-height: $lineHeight24;
 }
 .button-btns1{
-  width: 145px;
-  height: 50px;
-  font-size: $size12;
-  line-height: $lineHeight18;
+  width: 261px;
+  height: 84px;
+  font-size: $size24;
+  line-height: $lineHeight36;
 }
 .btn-vop{
   border: 2px solid $color5;
