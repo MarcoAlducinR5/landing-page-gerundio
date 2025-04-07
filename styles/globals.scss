@@ -133,7 +133,7 @@ body {
   display: $block;
 }
 
-.mitad{
+.mitad, .mitad2{
   width: auto;
 }
 
@@ -153,6 +153,28 @@ body {
 .b-tb-description {
   font-size: $size18;
   line-height: $lineHeight27;
+}
+
+.imagen{
+  height: auto;
+}
+
+.a-h1-tx2{
+  font-size: $size24;
+  line-height: $lineHeight36;
+}
+.a-txtc5{
+  font-size: $size12;
+  line-height: $lineHeight18;
+}
+.button-btns1{
+  width: 145px;
+  height: 50px;
+  font-size: $size12;
+  line-height: $lineHeight18;
+}
+.btn-vop{
+  border: 2px solid $color5;
 }
 
 // Smartphones, iphones and ipad mini
@@ -203,7 +225,7 @@ body {
     font-size: $size16;
     line-height: $lineHeight24;
   }
-  .mitad{
+  .mitad, .mitad1, .mitad2{
     width: 50%;
   }
   .texto-aside2{
@@ -225,6 +247,24 @@ body {
   .b-tb-description{
     font-size: 14px;
     line-height: $lineHeight18;
+  }
+  .imagen{
+    width: 45%;
+    height: auto;
+  }
+  .a-h1-tx2{
+    font-size: $size38;
+    line-height: $lineHeight57;
+  }
+  .a-txtc5{
+    font-size: 15px;
+    line-height: $lineHeight18;
+  }
+  .button-btns1{
+    width: 40%;
+    height: 50px;
+    font-size: $size16;
+    line-height: $lineHeight24;
   }
 }
 
@@ -263,6 +303,9 @@ body {
   .mitad{
     width: 45%;
   }
+  .mitad2{
+    width: 50%;
+  }
   .bordes{
     width: auto; 
     height: auto;
@@ -280,6 +323,24 @@ body {
   }
   .texto-aside2{
     font-size: 15px;
+    line-height: $lineHeight24;
+  }
+  .imagen{
+    width: 94%;
+    height: auto;
+  }
+  .a-h1-tx2{
+    font-size: $size53;
+    line-height: $lineHeight73;
+  }
+  .a-txtc5{
+    font-size: $size18;
+    line-height: $lineHeight27;
+  }
+  .button-btns1{
+    width: 40%;
+    height: 50px;
+    font-size: $size16;
     line-height: $lineHeight24;
   }
 }
