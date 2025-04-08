@@ -7,6 +7,7 @@ import CheckDisc from "./components/ui/svg/check-disc";
 import Hourglass from "./components/ui/svg/hourglass";
 import Bells from "./components/ui/svg/bells";
 import familyHappy from "../public/images/black-family-happy-and-hug-with-people-bonding-in-2023-11-27-04-59-51-utc 1.png"
+import lawyerWorking from "../public/images/lawyer-working-with-client-discussing-contract-pap-2025-01-10-12-40-06-utc 1.png"
 import Image from "next/image";
 
 export const metadataHome = {
@@ -23,7 +24,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      
       <aside className="d-flex flex-column flex-md-row text-center text-md-start mb-5 mt-4 my-md-5 px-1 px-md-2">
         <section className="flex-fill mitad1 mb-3 pe-md-3 pe-lg-3">
           <h1 className="texto-color2 a-h1-tx2">Smart Insurance Solutions for a Worry <div className="texto-brand">Free Life</div></h1>
@@ -85,6 +86,103 @@ export default function Home() {
           </div>
         </div>
       </div>
+
+      <aside className="d-flex flex-column flex-md-row flex-md-row-reverse px-1">
+        <section className="flex-fill ps-md-2">
+          <h1 className="texto-color2 h1-txtc2 text-center text-md-start">Getting Insured Is Simple & Fast</h1>
+          <section className="text-center text-md-start texto-color5 section-text">
+            <p className="d-block d-md-none">Follow these easy steps to secure your insurance plan today.</p>
+            <p className="d-none d-md-block">Follow these easy steps to secure your insurance plan today. No complicated paperwork, no hidden fees – just reliable coverage in minutes!</p>
+          </section>
+          <table className="d-none d-md-block">
+            <tbody>
+              <tr>
+                <td className="texto-color2 a-secc-title width">01 -</td>
+                <td className="texto-brand a-secc-title">Choose a Plan</td>
+              </tr>
+              <tr>
+                <td colSpan={2} className="text-color5">
+                  <p className="a-secc-description">Browse through our range of insurance plans tailored for your needs. Whether you need health, life, car, home, or travel insurance, we have a plan that fits your lifestyle and budget.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="texto-color2 a-secc-title width">02 -</td>
+                <td className="texto-brand a-secc-title">Get a Free Quote</td>
+              </tr>
+              <tr>
+                <td colSpan={2} className="text-color5">
+                  <p className="a-secc-description">Fill out a quick form with basic details, and our system will generate a personalized quote instantly. No commitments, no hidden charges—just a transparent breakdown of your insurance options.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="texto-color2 a-secc-title width">03 -</td>
+                <td className="texto-brand a-secc-title">Apply Online</td>
+              </tr>
+              <tr>
+                <td colSpan={2} className="text-color5">
+                  <p className="a-secc-description">Once you’ve chosen your plan, complete the application online in a few simple steps. Our digital process ensures secure and hassle-free enrollment—no lengthy paperwork required.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td className="texto-color2 a-secc-title width">04 -</td>
+                <td className="texto-brand a-secc-title">Get Covered Instantly</td>
+              </tr>
+              <tr>
+                <td colSpan={2} className="text-color5">
+                  <p className="a-secc-description">Once your application is reviewed and approved, your policy becomes active immediately. You’ll receive a digital copy of your insurance documents, and you’re fully protected from day one.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        <Image src={lawyerWorking} alt="Picture of the author" width={0} height={0} className="imagenLW rounded-4 pe-md-2" priority />
+        <table className="d-block d-md-none my-3">
+          <tbody>
+            <tr>
+              <td className="texto-color2 a-secc-title width">01 -</td>
+              <td className="texto-brand a-secc-title">Choose a Plan</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="text-color5">
+                <p className="a-secc-description">Browse through our range of insurance plans tailored for your needs. Whether you need health, life, car, home, or travel insurance, we have a plan that fits your lifestyle and budget.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="texto-color2 a-secc-title width">02 -</td>
+              <td className="texto-brand a-secc-title">Get a Free Quote</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="text-color5">
+                <p className="a-secc-description">Fill out a quick form with basic details, and our system will generate a personalized quote instantly. No commitments, no hidden charges—just a transparent breakdown of your insurance options.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="texto-color2 a-secc-title width">03 -</td>
+              <td className="texto-brand a-secc-title">Apply Online</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="text-color5">
+                <p className="a-secc-description">Once you’ve chosen your plan, complete the application online in a few simple steps. Our digital process ensures secure and hassle-free enrollment—no lengthy paperwork required.</p>
+              </td>
+            </tr>
+
+            <tr>
+              <td className="texto-color2 a-secc-title width">04 -</td>
+              <td className="texto-brand a-secc-title">Get Covered Instantly</td>
+            </tr>
+            <tr>
+              <td colSpan={2} className="text-color5">
+                <p className="a-secc-description">Once your application is reviewed and approved, your policy becomes active immediately. You’ll receive a digital copy of your insurance documents, and you’re fully protected from day one.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </aside>
       
       <div className="texto-brand txtb-mobile2 txtb-tablet2 txtb-desktop2">
         Shield Plus

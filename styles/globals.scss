@@ -158,6 +158,10 @@ body {
 .imagen{
   height: auto;
 }
+.imagenLW{
+  width: 100%;
+  height: auto;
+}
 
 .a-h1-tx2{
   font-size: 31px;
@@ -175,6 +179,28 @@ body {
 }
 .btn-vop{
   border: 2px solid $color5;
+}
+
+.h1-txtc2{
+  font-size: 23.8px;
+  line-height: $lineHeight36;
+}
+.section-text{
+  font-size: $size18;
+  line-height: $lineHeight27;
+}
+.width{
+  width: 17%;
+}
+
+.a-secc-title{
+  font-size: $size24;
+  line-height: $lineHeight36;
+}
+.a-secc-description{
+  font-size: 13.3px;
+  line-height: $lineHeight24;
+  padding-left: 17%;
 }
 
 // Smartphones, iphones and ipad mini
@@ -252,6 +278,10 @@ body {
     width: 45%;
     height: auto;
   }
+  .imagenLW{
+    width: 50%;
+    height: auto;
+  }
   .a-h1-tx2{
     font-size: $size38;
     line-height: $lineHeight57;
@@ -265,6 +295,22 @@ body {
     height: 50px;
     font-size: $size16;
     line-height: $lineHeight24;
+  }
+  .h1-txtc2{
+    font-size: $size28;
+    line-height: $lineHeight42;
+  }
+  .section-text{
+    font-size: 13.7px;
+    line-height: $lineHeight18;
+  }
+  .width{
+    width: 12%;
+  }
+  .a-secc-description{
+    font-size: 11.6px;
+    line-height: $lineHeight24;
+    padding-left: 12%;
   }
 }
 
@@ -342,5 +388,25 @@ body {
     height: 50px;
     font-size: $size16;
     line-height: $lineHeight24;
+  }
+  .imagenLW{
+    width: 50%;
+    height: auto;
+  }
+  .section-text{
+    font-size: $size16;
+    line-height: $lineHeight24;
+  }
+  .a-secc-title{
+    font-size: $size28;
+    line-height: $lineHeight42;
+  }
+  .width{
+    width: 12%;
+  }
+  .a-secc-description{
+    font-size: 14px;
+    line-height: $lineHeight24;
+    padding-left: 11%;
   }
 }
