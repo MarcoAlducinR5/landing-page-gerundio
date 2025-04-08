@@ -38,23 +38,23 @@ export default function Header() {
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/">
+                        <Link className="nav-link" href="/benefits">
                           Benefits
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/">
+                        <Link className="nav-link" href="/claims">
                           Claims
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/">
+                        <Link className="nav-link" href="/testimonials">
                           Testimonials
                         </Link>
                       </li>
                       <li className="nav-item">
-                        <Link className="nav-link" href="/">
-                          Constact Us
+                        <Link className="nav-link" href="/contact-us">
+                          Contact Us
                         </Link>
                       </li>
                       <li className="nav-item btn-started1 text-start">
