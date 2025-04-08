@@ -103,6 +103,10 @@ body {
   font-size: 17.9px;
   line-height: $lineHeight27;
 }
+.texto-color6{
+  color: $color2;
+  font-weight: $weight5;
+}
 
 .mostrarBtn, .txt-a-d{
   display: $none;
@@ -202,16 +206,47 @@ body {
   line-height: $lineHeight24;
   padding-left: 17%;
 }
+.txtb-mobile2{
+  font-size: $size38;
+  line-height: $lineHeight57;
+}
+.mf-text{
+  font-size: 17px;
+  line-height: $lineHeight27;
+}
+.txtb-quickLinks{
+  font-size: $size24;
+  line-height: $lineHeight36;
+}
+.txtb-ql-mobile{
+  font-size: $size18;
+  line-height: $lineHeight27;
+}
+.inputEmail::placeholder{
+  font-size: $size12;
+  line-height: $lineHeight18;
+}
+.txtc5-description{
+  font-size: 10.8px;
+  line-height: $lineHeight18;
+}
+.btn-email{
+  font-size: $size12;
+  line-height: $lineHeight18;
+}
+.txtc1-icons{
+  font-size: $size18;
+  line-height: $lineHeight27;
+}
+.tamano{
+  width: auto;
+}
 
 // Smartphones, iphones and ipad mini
 @media (min-width: 768px) and (max-width: 991.99px) { 
   .txtb-mobile1{
     font-size: $size16;
     line-height: $lineHeight24;
-  }
-  .txtb-mobile2{
-    font-size: $size38;
-    line-height: $lineHeight57;
   }
   .nav-menu-m{
     font-size: $size22;
@@ -312,6 +347,27 @@ body {
     line-height: $lineHeight24;
     padding-left: 12%;
   }
+  .tamano{
+    width: 33%;
+  }
+  .mf-text{
+    font-size: $size16;
+    line-height: $lineHeight24;
+  }
+  .txtc1-icons{
+    font-size: $size16;
+    line-height: $lineHeight24;
+  }
+  .txtb-ql-mobile{
+    font-size: 14px;
+    line-height: $lineHeight24;
+    margin-top: 37px;
+  }
+  .txtc5-description{
+    font-size: 10.3px;
+    line-height: $lineHeight18;
+    margin-top: 40px;
+  }
 }
 
 // laptops, desktops and monitors
@@ -408,5 +464,22 @@ body {
     font-size: 14px;
     line-height: $lineHeight24;
     padding-left: 11%;
+  }
+  .tamano{
+    width: 33%;
+  }
+  .mf-text, .txtc1-icons{
+    font-size: $size18;
+    line-height: $lineHeight27;
+  }
+  .txtb-ql-mobile{
+    font-size: $size18;
+    line-height: $lineHeight27;
+    margin-top: 37px;
+  }
+  .txtc5-description{
+    font-size: $size12;
+    line-height: $lineHeight18;
+    margin-top: 37px;
   }
 }
